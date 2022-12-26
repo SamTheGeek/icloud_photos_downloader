@@ -20,6 +20,7 @@ jobs:
       id: get-python-versions-action
       with:
         min-version: 3.8
+        # It appears that icloudpd is not functional yet on versions higher than 3.10.
         max-version: 3.10
         include-prereleases: false
 
